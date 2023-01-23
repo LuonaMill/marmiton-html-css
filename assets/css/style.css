@@ -1,0 +1,118 @@
+/* GENERAL */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #393c6c;
+}
+h1:hover {
+  color: red;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3735f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+/*---------------- HEADER */
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+  line-height: 100px;
+}
+
+header img {
+  height: 40px;
+  margin-top: 30px;
+}
+
+/*---------------- MAIN */
+
+.diet {
+  font-size: 15px;
+  color: lightslategray;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+.time {
+  background-color: lightslategrey;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  /* display: block; */
+  padding: 15px;
+  margin-left: 280px;
+  margin-right: 280px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/*---------------- Section Pictures*/
+
+.crepe-pictures img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+/* QUESTION : comment centrer mes images ? 
+
+/*---------------- Section Description*/
+
+li {
+  margin-left: 40px;
+  margin-bottom: 5px;
+  color: lightslategray;
+  font-size: 18px;
+}
+
+ul {
+  margin-bottom: 80px;
+}
+
+/*---------------- FOOTER*/
+
+footer {
+  color: slategrey;
+  text-align: center;
+  box-sizing: center;
+  margin: 2%;
+}
